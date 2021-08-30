@@ -1,0 +1,97 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Dec 13 16:15:21 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 30 October 2017 06:31:19
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Mon Jan  9 23:07:29 PST 2017; root:xnu-3248.60.11.2.1~1/RELEASE_X86_64
+nodename: smartli.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /Users/smart/Desktop/dj/bj20/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /Users/smart/.virtualenvs/dailyfresh/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/smart/Desktop/dj/bj20/dailyfresh
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:59348 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Oct 21 2017, 11:45:19)  [GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]
+Set PythonHome to /Users/smart/.virtualenvs/dailyfresh
+Python main interpreter initialized at 0x7fa6d9501540
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415200 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa6d9501540 pid: 6333 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6333)
+spawned uWSGI worker 1 (pid: 6334, cores: 2)
+spawned uWSGI worker 2 (pid: 6335, cores: 2)
+spawned uWSGI worker 3 (pid: 6336, cores: 2)
+spawned uWSGI worker 4 (pid: 6337, cores: 2)
+spawned uWSGI http 1 (pid: 6338)
+[pid: 6335|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 749 bytes} [Wed Dec 13 16:17:02 2017] GET /index => generated 13788 bytes in 480 msecs (HTTP/1.1 200) 3 headers in 102 bytes (2 switches on core 0)
+[pid: 6335|app: 0|req: 3/2] 127.0.0.1 () {38 vars in 716 bytes} [Wed Dec 13 16:17:03 2017] GET /static/js/jquery-ui.min.js => generated 100 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 1)
+[pid: 6335|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 717 bytes} [Wed Dec 13 16:17:03 2017] GET /static/css/main.css => generated 93 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 6336|app: 0|req: 1/4] 127.0.0.1 () {38 vars in 724 bytes} [Wed Dec 13 16:17:03 2017] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 294 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 1)
+[pid: 6337|app: 0|req: 2/5] 127.0.0.1 () {38 vars in 718 bytes} [Wed Dec 13 16:17:03 2017] GET /static/css/reset.css => generated 94 bytes in 296 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 1)
+[pid: 6337|app: 0|req: 2/6] 127.0.0.1 () {38 vars in 700 bytes} [Wed Dec 13 16:17:03 2017] GET /static/js/slide.js => generated 92 bytes in 296 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 6335|app: 0|req: 4/7] 127.0.0.1 () {38 vars in 744 bytes} [Wed Dec 13 16:17:03 2017] GET /static/images/logo.png => generated 96 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6334|app: 0|req: 1/8] 127.0.0.1 () {38 vars in 716 bytes} [Wed Dec 13 16:17:03 2017] GET /static/js/jquery-ui.min.js => generated 100 bytes in 285 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6335|app: 0|req: 5/9] 127.0.0.1 () {38 vars in 700 bytes} [Wed Dec 13 16:17:03 2017] GET /static/js/slide.js => generated 92 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 6338)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Wed Dec 13 16:44:41 2017] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 30 October 2017 06:31:19
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Mon Jan  9 23:07:29 PST 2017; root:xnu-3248.60.11.2.1~1/RELEASE_X86_64
+nodename: smartli.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /Users/smart/Desktop/dj/bj20/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /Users/smart/.virtualenvs/dailyfresh/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/smart/Desktop/dj/bj20/dailyfresh
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.5.2 (default, Oct 21 2017, 11:45:19)  [GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]
+Set PythonHome to /Users/smart/.virtualenvs/dailyfresh
+Python main interpreter initialized at 0x7fb698d00d20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415200 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fb698d00d20 pid: 6791 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6791)
+spawned uWSGI worker 1 (pid: 6792, cores: 2)
+spawned uWSGI worker 2 (pid: 6793, cores: 2)
+spawned uWSGI worker 3 (pid: 6794, cores: 2)
+spawned uWSGI worker 4 (pid: 6795, cores: 2)
+[pid: 6792|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 775 bytes} [Wed Dec 13 16:45:23 2017] GET /index => generated 13788 bytes in 458 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6792|app: 0|req: 2/2] 127.0.0.1 () {40 vars in 741 bytes} [Wed Dec 13 16:45:23 2017] GET /static/css/reset.css => generated 94 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 1)
+[pid: 6793|app: 0|req: 1/3] 127.0.0.1 () {40 vars in 722 bytes} [Wed Dec 13 16:45:23 2017] GET /static/js/slide.js => generated 92 bytes in 304 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 6794|app: 0|req: 1/4] 127.0.0.1 () {40 vars in 739 bytes} [Wed Dec 13 16:45:23 2017] GET /static/css/main.css => generated 93 bytes in 305 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 1)
+[pid: 6795|app: 0|req: 2/5] 127.0.0.1 () {40 vars in 746 bytes} [Wed Dec 13 16:45:23 2017] GET /static/js/jquery-1.12.4.min.js => generated 104 bytes in 306 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 1)
+[pid: 6795|app: 0|req: 2/6] 127.0.0.1 () {40 vars in 738 bytes} [Wed Dec 13 16:45:23 2017] GET /static/js/jquery-ui.min.js => generated 100 bytes in 306 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 0)
+[pid: 6795|app: 0|req: 3/7] 127.0.0.1 () {40 vars in 766 bytes} [Wed Dec 13 16:45:24 2017] GET /static/images/logo.png => generated 96 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 1)
+[pid: 6792|app: 0|req: 3/8] 127.0.0.1 () {40 vars in 722 bytes} [Wed Dec 13 16:45:24 2017] GET /static/js/slide.js => generated 92 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+设置缓存数据
+[pid: 6794|app: 0|req: 2/9] 127.0.0.1 () {42 vars in 806 bytes} [Wed Dec 13 16:55:49 2017] GET /index => generated 13788 bytes in 158 msecs (HTTP/1.1 200) 3 headers in 102 bytes (2 switches on core 1)
+[pid: 6795|app: 0|req: 4/10] 127.0.0.1 () {40 vars in 775 bytes} [Wed Dec 13 17:05:41 2017] GET /index => generated 13788 bytes in 136 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 6794|app: 0|req: 3/11] 127.0.0.1 () {42 vars in 806 bytes} [Wed Dec 13 17:15:01 2017] GET /index => generated 13788 bytes in 76 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 6792|app: 0|req: 4/12] 127.0.0.1 () {42 vars in 806 bytes} [Wed Dec 13 17:15:26 2017] GET /index => generated 13788 bytes in 75 msecs (HTTP/1.1 200) 3 headers in 102 bytes (2 switches on core 0)
